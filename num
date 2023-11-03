@@ -1,0 +1,9 @@
+def find_max_min_values(input_list):
+    if len(input_list) == 0:
+        print("The list is empty.")
+    else:
+        max_value = max(input_list)
+        min_value = min(input_list)
+        print("Maximum value:", max_value)
+        print("Minimum value:", min_value)
+
